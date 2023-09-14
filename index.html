@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kalkulator Matematika</title>
+</head>
+<body>
+    <h1 class="header">Katik <span>Kalkulator Matematik</span></h1>
+
+    <div class="container">
+        <h2 class="header-content">Welcome to Katik</h2>
+        <p>Hai Sobat, Selamat datang di Katik :]</p>
+        <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        <h5 class="content">Persegi</h5>
+
+        <h2 class="main-head">Luas Persegi</h2>
+        <div class="image">
+            <img src="mp1.webp" alt="">
+        </div>
+        <div class="main-content">
+        <p>Rumus Luas Persegi yaitu :</p>
+        <h3>L = S X S</h3>
+        <p>Dimana :</p>
+        <p>L = Luas</p>
+        <p>S = Sisi</p> <br>
+        <hr class="separator">
+        <h1>Hitung Luas Persegi</h1>
+        </div>
+        <div class="main">
+        <input type="number" name="number" id="number" placeholder="Nilai Sisi">
+        <p id="result"></p>
+        <button onclick="hitungLuas()" class="btn-hitung">Hitung</button>
+        <button onclick="resetLuas()" class="btn-reset">Reset</button> <br><br>
+        </div>
+        <h2 class="main-head">Keliling Persegi</h2>
+        <div class="image">
+            <img src="mp1.webp" alt="">
+        </div>
+        <div class="main-content">
+        <p>Rumus Keliling Persegi yaitu :</p>
+        <h3>K = 4 X S</h3>
+        <p>Dimana :</p>
+        <p>K = Keliling</p>
+        <p>S = Sisi</p> <br>
+        <hr class="separator">
+        <h1>Hitung Keliling Persegi</h1>
+        </div>
+        <div class="main">
+        <input type="number" name="nomor" id="nomor" placeholder="Nilai Sisi">
+        <p id="hasil"></p>
+        <button onclick="hitungKeliling()" class="btn-hitung">Hitung</button>
+        <button onclick="resetKeliling()" class="btn-reset">Reset</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

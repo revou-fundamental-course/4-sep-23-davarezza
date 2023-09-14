@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    content: '';
+    content: none;
+    border-collapse: collapse;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(230, 217, 217);
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 5rem;
+    background-color: blue;
+    color: #fff;
+    height: 5rem;
+}
+
+.header span {
+    color: #ffffffad;
+    font-size: 1.6rem;
+}
+
+.container {
+    background-color: #fff;
+    margin: 0.8rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.header-content {
+    font-weight: 600;
+    padding-top: 2.5rem;
+}
+
+.content {
+    background-color: rgb(63, 63, 160);
+    color: #fff;
+    justify-content: center;
+    padding: 0.4rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.main-head {
+    background-color: rgb(63, 63, 160);
+    color: #fff;
+    height: 8rem;
+    line-height: 8rem;
+}
+
+.image img {
+    width: 250px;
+    height: 250px;
+}
+
+.main-content {
+    text-align: start;
+    padding: 10px;
+}
+
+.main-content h3 {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    text-align: center;
+}
+
+.separator {
+    border: none;
+    height: 1px;
+    background-color: #000; /* You can change the color to your preference */
+    margin: 10px 0; /* Adjust the margin as needed */
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+input[type="number"] {
+    border: 2px solid gray;
+    margin: 0 1rem;
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+.btn-hitung {
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.btn-reset {
+    background-color: yellow; /* Yellow color */
+    color: black; /* Text color for the Reset button */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.btn-hitung,
+.btn-reset {
+    margin: 5px;
+}
+
+.btn-reset {
+    margin-left: auto;
+}
+
